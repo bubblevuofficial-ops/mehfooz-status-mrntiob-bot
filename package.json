@@ -1,0 +1,36 @@
+{
+  "name": "mehfooz-status-control",
+  "version": "2.1.0",
+  "description": "Mehfooz Status Control — by Mehfooz Ahmad (Saif Chishti / Chishti Brothers). Real-time WhatsApp Group Status broadcast & group-management dashboard: post groupStatusMessageV2 to one or many groups at once with a live SSE progress monitor, search/select across 1,500+ groups, leave-group management, and operation history. Built on the @itsliaaa/baileys fork of Baileys.",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch src/server.js",
+    "anti-status": "node scripts/anti-status-guard.mjs",
+    "integrity:generate": "node scripts/generate-integrity.mjs"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "group-status",
+    "groupstatusmessagev2",
+    "whatsapp-status",
+    "broadcast",
+    "dashboard"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@itsliaaa/baileys": "0.3.18-final",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^2.3.0",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4",
+    "tesseract.js": "^5.1.1"
+  }
+}

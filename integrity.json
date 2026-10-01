@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-10-01T12:27:02.519Z",
+  "files": {
+    "src/server.js": "b2c5deb0b3b55cc15c139526383f473843c1fc9a471808f833772d1ab0fffe18",
+    "src/wa-client.js": "6a45094efbe062c579cdfc869f062507dbf51640e072bb1a2c7c0d57d5cc0c2c",
+    "src/history.js": "92ab9e2d5447942cf388b55def911e667dc0331b03aa1d50c0b0d41abf7d3d38",
+    "src/integrity.js": "e9550d23d05ea0f323d1e471d008eeac5bf6352960b42a6d3ae385e1226c5e6e",
+    "src/auth.js": "2650ea2936d88a32fc209450ee2546326d7acf21c3ea9732e47d12efef04077d",
+    "src/moderation.js": "b46f695ca373102c06422e2a07050d2d84645db684a1a424f0bb5993f8384ab7",
+    "src/groupBot.js": "58c62673d5912546cabeacfd44ef1963febf272375dbf23ac16c5639804e8ccb"
+  },
+  "dependenciesHash": "9e2e3abb5a9064a1db3c4d238ed636eb61b348412d48fd76a1f0a54e268d185f",
+  "errors": {}
+}
